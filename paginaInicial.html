@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="paginaInicial.css">
-    <title>Naturis agriculture</title>
+    <title>Naturis</title>
+    <link rel="stylesheet" href="paginaInicial.css">
+    <script defer src="paginaInicial.js"></script>
 </head>
 <body>
-    <h1>bem vindo</h1>
+    <div class="barra-lateral">
+        <h1>Naturis</h1>
+        <button class="botao" onclick="alterarSecao('tabaco')">Tabaco</button>
+        <button class="botao" onclick="alterarSecao('eucalipto')">Eucalipto</button>
+        <button class="botao" onclick="alterarSecao('clima')">Clima</button>
+        <button class="botao" onclick="alterarSecao('perfil')">Perfil</button>
+    </div>
+    <div class="conteudo">
+        <h2 id="titulo-secao">Tabaco</h2>
+        <p id="conteudo-principal">Informações sobre tabaco.</p>
+    </div>
 </body>
 </html>
