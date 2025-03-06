@@ -6,8 +6,8 @@
     height: 100vh;
     background-color: hsl(134, 67%, 59%);
     text-align: center;
-    overflow-y: auto; Permite rolagem vertical quando necessário
-    height: 100vh; Garante que o conteúdo ocupe a tela toda
+    overflow-y: auto; //Permite rolagem vertical quando necessário
+    height: 100vh; //Garante que o conteúdo ocupe a tela toda
 } */
 body {
     display: flex;
@@ -164,11 +164,11 @@ h1 {
 }
 
 #radio1:checked~.first {
-    margin-left: -10%;
+    margin-left: 0;
 }
 
 #radio2:checked~.first {
-    margin-left: -35%;
+    margin-left: -25%;
 }
 
 #radio3:checked~.first {
