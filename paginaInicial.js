@@ -110,9 +110,9 @@ menuItem.forEach((item)=>
 
 //expandir o menu
 
-var btnExp = document.querySelector('#btn-exp')
-var menuLateral = document.querySelector('.menu-lateral')
+//var btnExp = document.querySelector('#btn-exp')
+//var menuLateral = document.querySelector('.menu-lateral')
 
-btnExp.addEventListener('click', function(){
-    menuLateral.classList.toggle('expandir')
-})
+//btnExp.addEventListener('click', function(){
+//    menuLateral.classList.toggle('expandir')
+//})

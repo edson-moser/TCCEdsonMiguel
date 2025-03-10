@@ -274,7 +274,7 @@ h1 {
 }
 
 nav.menu-lateral{
-    width: 80px;
+    width: 300px;
     height: 100%;
     background-color: #ffffff;
     padding: 40px 0 40px 1%;
@@ -325,7 +325,7 @@ ul li.item-menu a .icon > i{
     font-size: 30px;
 }
 
-ul li.item-menu:hover{
+/*ul li.item-menu:hover{
     background-color: #428d42;
 }
 
